@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-09T11:55:31 IST" name="OHRM Test Suite" finished-at="2025-08-09T11:58:25 IST" duration-ms="174393">
+    <groups>
+    </groups>
+    <test started-at="2025-08-09T11:55:31 IST" name="All Functional Tests" finished-at="2025-08-09T11:58:25 IST" duration-ms="174393">
+      <class name="com.qa.test.LoginTest">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:com.qa.test.LoginTest@7d20d0b]" started-at="2025-08-09T11:55:31 IST" name="openApplication" finished-at="2025-08-09T11:56:00 IST" duration-ms="28860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="testOHRMlogo()[pri:1, instance:com.qa.test.LoginTest@7d20d0b]" started-at="2025-08-09T11:56:00 IST" name="testOHRMlogo" finished-at="2025-08-09T11:56:05 IST" duration-ms="5391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOHRMlogo -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:com.qa.test.LoginTest@7d20d0b]" started-at="2025-08-09T11:56:05 IST" name="closeApplication" finished-at="2025-08-09T11:56:08 IST" duration-ms="2317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:com.qa.test.LoginTest@7d20d0b]" started-at="2025-08-09T11:56:08 IST" name="openApplication" finished-at="2025-08-09T11:56:23 IST" duration-ms="15871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="testWithValidLoginCredentials()[pri:2, instance:com.qa.test.LoginTest@7d20d0b]" started-at="2025-08-09T11:56:23 IST" name="testWithValidLoginCredentials" finished-at="2025-08-09T11:56:29 IST" duration-ms="5432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithValidLoginCredentials -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:com.qa.test.LoginTest@7d20d0b]" started-at="2025-08-09T11:56:29 IST" name="closeApplication" finished-at="2025-08-09T11:56:30 IST" duration-ms="1184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:com.qa.test.LoginTest@7d20d0b]" started-at="2025-08-09T11:56:30 IST" name="openApplication" finished-at="2025-08-09T11:56:39 IST" duration-ms="9096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="testLoginWithInvalidUsername()[pri:3, instance:com.qa.test.LoginTest@7d20d0b]" started-at="2025-08-09T11:56:39 IST" name="testLoginWithInvalidUsername" finished-at="2025-08-09T11:56:44 IST" duration-ms="4464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithInvalidUsername -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:com.qa.test.LoginTest@7d20d0b]" started-at="2025-08-09T11:56:44 IST" name="closeApplication" finished-at="2025-08-09T11:56:45 IST" duration-ms="1193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:com.qa.test.LoginTest@7d20d0b]" started-at="2025-08-09T11:56:45 IST" name="openApplication" finished-at="2025-08-09T11:56:51 IST" duration-ms="5982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="testLoginWithInvalidPassword()[pri:4, instance:com.qa.test.LoginTest@7d20d0b]" started-at="2025-08-09T11:56:51 IST" name="testLoginWithInvalidPassword" finished-at="2025-08-09T11:57:00 IST" duration-ms="8931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithInvalidPassword -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:com.qa.test.LoginTest@7d20d0b]" started-at="2025-08-09T11:57:00 IST" name="closeApplication" finished-at="2025-08-09T11:57:00 IST" duration-ms="760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:com.qa.test.LoginTest@7d20d0b]" started-at="2025-08-09T11:57:00 IST" name="openApplication" finished-at="2025-08-09T11:57:09 IST" duration-ms="8749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="testLoginWithBlankUsernameAndPassword()[pri:5, instance:com.qa.test.LoginTest@7d20d0b]" started-at="2025-08-09T11:57:09 IST" name="testLoginWithBlankUsernameAndPassword" finished-at="2025-08-09T11:57:14 IST" duration-ms="4436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithBlankUsernameAndPassword -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:com.qa.test.LoginTest@7d20d0b]" started-at="2025-08-09T11:57:14 IST" name="closeApplication" finished-at="2025-08-09T11:57:14 IST" duration-ms="831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:com.qa.test.LoginTest@7d20d0b]" started-at="2025-08-09T11:57:14 IST" name="openApplication" finished-at="2025-08-09T11:57:27 IST" duration-ms="13028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="testLoginWithBlankUsernameOnly()[pri:6, instance:com.qa.test.LoginTest@7d20d0b]" started-at="2025-08-09T11:57:27 IST" name="testLoginWithBlankUsernameOnly" finished-at="2025-08-09T11:57:32 IST" duration-ms="4852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithBlankUsernameOnly -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:com.qa.test.LoginTest@7d20d0b]" started-at="2025-08-09T11:57:32 IST" name="closeApplication" finished-at="2025-08-09T11:57:33 IST" duration-ms="796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:com.qa.test.LoginTest@7d20d0b]" started-at="2025-08-09T11:57:33 IST" name="openApplication" finished-at="2025-08-09T11:57:41 IST" duration-ms="8025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="testLoginWithBlankPasswordOnly()[pri:7, instance:com.qa.test.LoginTest@7d20d0b]" started-at="2025-08-09T11:57:41 IST" name="testLoginWithBlankPasswordOnly" finished-at="2025-08-09T11:57:49 IST" duration-ms="7963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithBlankPasswordOnly -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:com.qa.test.LoginTest@7d20d0b]" started-at="2025-08-09T11:57:49 IST" name="closeApplication" finished-at="2025-08-09T11:57:50 IST" duration-ms="965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:com.qa.test.LoginTest@7d20d0b]" started-at="2025-08-09T11:57:50 IST" name="openApplication" finished-at="2025-08-09T11:58:01 IST" duration-ms="10525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="testLoginWithSpacesInCredentials()[pri:8, instance:com.qa.test.LoginTest@7d20d0b]" started-at="2025-08-09T11:58:01 IST" name="testLoginWithSpacesInCredentials" finished-at="2025-08-09T11:58:06 IST" duration-ms="5691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithSpacesInCredentials -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:com.qa.test.LoginTest@7d20d0b]" started-at="2025-08-09T11:58:06 IST" name="closeApplication" finished-at="2025-08-09T11:58:07 IST" duration-ms="944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:com.qa.test.LoginTest@7d20d0b]" started-at="2025-08-09T11:58:07 IST" name="openApplication" finished-at="2025-08-09T11:58:14 IST" duration-ms="6731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="testLoginFailsWithCaseSensitiveCredentials()[pri:9, instance:com.qa.test.LoginTest@7d20d0b]" started-at="2025-08-09T11:58:14 IST" name="testLoginFailsWithCaseSensitiveCredentials" finished-at="2025-08-09T11:58:24 IST" duration-ms="10009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFailsWithCaseSensitiveCredentials -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:com.qa.test.LoginTest@7d20d0b]" started-at="2025-08-09T11:58:24 IST" name="closeApplication" finished-at="2025-08-09T11:58:25 IST" duration-ms="1097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.qa.test.LoginTest -->
+    </test> <!-- All Functional Tests -->
+  </suite> <!-- OHRM Test Suite -->
+</testng-results>
